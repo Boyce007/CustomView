@@ -16,7 +16,13 @@
 
     <CheckBox
         android:id="@+id/chbxCircle"
-        android:layout_width="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+
+    <SeekBar
+
+        android:id="@+id/skbarPosition"
+        android:layout_width="match_parent"
         android:layout_height="35dp" />
 
 </LinearLayout>
